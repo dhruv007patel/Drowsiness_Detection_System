@@ -42,7 +42,7 @@ predictor = dlib.shape_predictor(args["shape_predictor"])
 (rStart, rEnd) = face_utils.FACIAL_LANDMARKS_IDXS["right_eye"]
 
 # start the video stream thread
-print("Launching WEB-CAM...")
+print("Launching WEB-CAM..")
 vs = VideoStream(src=args["webcam"]).start()
 time.sleep(1.0)
 
