@@ -11,7 +11,7 @@ import cv2
 import eye_a_r as e
 
 def sound_alarm(path):
-	# play an alarm sound
+	# plays an alarm sound
 	playsound.playsound(path)
  
 # construct the argument parse and parse the arguments
